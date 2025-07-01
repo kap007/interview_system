@@ -1,0 +1,882 @@
+{
+  "candidate_name": "crewai",
+  "session_start": "2025-07-01 15:10:23.989830",
+  "questions_data": [
+    {
+      "question_number": 1,
+      "question_text": "Tell me about your experience with Python programming and what projects you've worked on.",
+      "audio_file": "Q01_answer.mp3",
+      "transcript": "So, with Python, I would say I'm skillful in Python on the advanced level. Project-wise, I have not made any. I'm currently working on U, actually. I'm currently working on OpenCV, I've also made a YouTube chaptering, NLP, thank you. I'm working on you.",
+      "confidence_evaluation": {
+        "response_time": 2.6,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 44,
+        "filler_count": 2,
+        "filler_ratio": 4.5,
+        "filler_details": {
+          "actually": 1,
+          "so": 1
+        },
+        "filler_categories": {
+          "intensifiers": 1,
+          "stalling": 1
+        },
+        "fluency_score": 93.2,
+        "adjusted_fluency_score": 79.3,
+        "speech_rate_wpm": 130.4,
+        "gap_analysis": {
+          "total_duration": 37.77886621315193,
+          "speech_duration": 20.240000000000364,
+          "silence_duration": 17.538866213151564,
+          "speech_ratio": 0.5357492701290816,
+          "pause_count": 13,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.67,
+              "duration": 0.67,
+              "type": "normal"
+            },
+            {
+              "start": 1.47,
+              "end": 2.12,
+              "duration": 0.6500000000000001,
+              "type": "normal"
+            },
+            {
+              "start": 3.38,
+              "end": 3.88,
+              "duration": 0.5,
+              "type": "normal"
+            },
+            {
+              "start": 6.47,
+              "end": 7.37,
+              "duration": 0.9000000000000004,
+              "type": "normal"
+            },
+            {
+              "start": 7.78,
+              "end": 9.06,
+              "duration": 1.2800000000000002,
+              "type": "normal"
+            },
+            {
+              "start": 11.87,
+              "end": 12.51,
+              "duration": 0.6400000000000006,
+              "type": "normal"
+            },
+            {
+              "start": 14.82,
+              "end": 15.85,
+              "duration": 1.0299999999999994,
+              "type": "normal"
+            },
+            {
+              "start": 18.4,
+              "end": 19.09,
+              "duration": 0.6900000000000013,
+              "type": "normal"
+            },
+            {
+              "start": 20.29,
+              "end": 20.97,
+              "duration": 0.6799999999999997,
+              "type": "normal"
+            },
+            {
+              "start": 22.47,
+              "end": 23.07,
+              "duration": 0.6000000000000014,
+              "type": "normal"
+            },
+            {
+              "start": 27.43,
+              "end": 28.02,
+              "duration": 0.5899999999999999,
+              "type": "normal"
+            },
+            {
+              "start": 28.55,
+              "end": 29.37,
+              "duration": 0.8200000000000003,
+              "type": "normal"
+            },
+            {
+              "start": 34.87,
+              "end": 35.53,
+              "duration": 0.6600000000000037,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.7469230769230776,
+            "max_pause_duration": 1.2800000000000002,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 13,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.75,
+          "max_pause_duration": 1.28,
+          "speech_ratio": 53.6
+        }
+      },
+      "answer_evaluation": {
+        "question_index": 0,
+        "question_type": "python_experience",
+        "combined_score": 4.6,
+        "keyword_evaluation": {
+          "keyword_score": 4.6,
+          "detailed_breakdown": {
+            "essential_score": 0.67,
+            "bonus_score": 0.0,
+            "structure_score": 0.64,
+            "negative_penalty": 0
+          },
+          "matches_found": {
+            "exact": {
+              "essential": {
+                "experience": [
+                  "python"
+                ],
+                "projects": [
+                  "project"
+                ]
+              },
+              "bonus": {}
+            },
+            "semantic": {
+              "essential": {},
+              "bonus": {}
+            },
+            "patterns": [],
+            "synonyms": {
+              "essential": {},
+              "bonus": {}
+            }
+          },
+          "coverage_analysis": {
+            "essential_coverage": 66.7,
+            "bonus_coverage": 0.0,
+            "essential_groups_covered": "2/3",
+            "bonus_groups_covered": "0/4"
+          },
+          "improvement_suggestions": [
+            "Consider mentioning technologies: framework, library, tool"
+          ]
+        },
+        "score_breakdown": {
+          "keyword_score": 4.6,
+          "scoring_method": "Advanced Keyword Matching",
+          "components": {
+            "essential_score": 0.67,
+            "bonus_score": 0.0,
+            "structure_score": 0.64,
+            "negative_penalty": 0
+          }
+        },
+        "coverage_analysis": {
+          "essential_coverage": 66.7,
+          "bonus_coverage": 0.0,
+          "essential_groups_covered": "2/3",
+          "bonus_groups_covered": "0/4"
+        },
+        "improvement_suggestions": [
+          "Consider mentioning technologies: framework, library, tool"
+        ]
+      },
+      "audio_duration": 37.778875,
+      "transcript_segments": [
+        {
+          "start": 2.2,
+          "end": 14.68,
+          "text": "So, with Python, I would say I'm skillful in Python on the advanced level."
+        },
+        {
+          "start": 15.9,
+          "end": 24.64,
+          "text": "Project-wise, I have not made any. I'm currently working on U, actually."
+        },
+        {
+          "start": 24.64,
+          "end": 34.12,
+          "text": "I'm currently working on OpenCV, I've also made a YouTube chaptering, NLP, thank you."
+        },
+        {
+          "start": 35.16,
+          "end": 36.36,
+          "text": "I'm working on you."
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question_text": "Explain the difference between lists and tuples in Python. When would you use each?",
+      "audio_file": "Q02_answer.mp3",
+      "transcript": "okay so lists are mutable objects and tuples are immutable objects if you if you wanna keep a record static you use a tuple when and when you want to when you're constantly changing a value inside a mutable object that's when you can use lists they function they function similar to to an array like structure but like i said list would be a mutable object which is changeable and tuples are immutable non-changeable thank you",
+      "confidence_evaluation": {
+        "response_time": 0.8,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 77,
+        "filler_count": 4,
+        "filler_ratio": 5.2,
+        "filler_details": {
+          "like": 2,
+          "okay": 1,
+          "so": 1
+        },
+        "filler_categories": {
+          "discourse_markers": 3,
+          "stalling": 1
+        },
+        "fluency_score": 92.2,
+        "adjusted_fluency_score": 83.7,
+        "speech_rate_wpm": 176.5,
+        "gap_analysis": {
+          "total_duration": 36.45532879818594,
+          "speech_duration": 26.17000000000129,
+          "silence_duration": 10.285328798184647,
+          "speech_ratio": 0.7178648736067234,
+          "pause_count": 6,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.52,
+              "duration": 0.52,
+              "type": "normal"
+            },
+            {
+              "start": 9.46,
+              "end": 9.97,
+              "duration": 0.5099999999999998,
+              "type": "normal"
+            },
+            {
+              "start": 13.81,
+              "end": 14.31,
+              "duration": 0.5,
+              "type": "normal"
+            },
+            {
+              "start": 17.09,
+              "end": 17.71,
+              "duration": 0.620000000000001,
+              "type": "normal"
+            },
+            {
+              "start": 18.78,
+              "end": 19.34,
+              "duration": 0.5599999999999987,
+              "type": "normal"
+            },
+            {
+              "start": 27.06,
+              "end": 27.69,
+              "duration": 0.6300000000000026,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.556666666666667,
+            "max_pause_duration": 0.6300000000000026,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 6,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.56,
+          "max_pause_duration": 0.63,
+          "speech_ratio": 71.8
+        }
+      },
+      "answer_evaluation": {
+        "question_index": 1,
+        "question_type": "python_fundamentals",
+        "combined_score": 7.9,
+        "keyword_evaluation": {
+          "keyword_score": 7.9,
+          "detailed_breakdown": {
+            "essential_score": 1.0,
+            "bonus_score": 0.0,
+            "structure_score": 0.94,
+            "negative_penalty": 0
+          },
+          "matches_found": {
+            "exact": {
+              "essential": {
+                "data_types": [
+                  "list",
+                  "tuple",
+                  "mutable",
+                  "immutable"
+                ],
+                "characteristics": [
+                  "changeable"
+                ],
+                "use_cases": [
+                  "use",
+                  "when"
+                ]
+              },
+              "bonus": {}
+            },
+            "semantic": {
+              "essential": {},
+              "bonus": {}
+            },
+            "patterns": [
+              "lists are mutable objects and tuples are immutable objects if you if you wanna keep a record static you use a tuple when and when you want to when you're constantly changing a value inside a mutable object that's when you can use lists they function they function similar to to an array like structure but like i said list would be a mutable object which is changeable and tuples are immutable",
+              "tuples are immutable objects if you if you wanna keep a record static you use a tuple when and when you want to when you're constantly changing a value inside a mutable object that's when you can use lists they function they function similar to to an array like structure but like i said list would be a mutable object which is changeable and tuples are immutable"
+            ],
+            "synonyms": {
+              "essential": {
+                "data_types": [
+                  "array (synonym for list)"
+                ]
+              },
+              "bonus": {}
+            }
+          },
+          "coverage_analysis": {
+            "essential_coverage": 100.0,
+            "bonus_coverage": 0.0,
+            "essential_groups_covered": "3/3",
+            "bonus_groups_covered": "0/3"
+          },
+          "improvement_suggestions": []
+        },
+        "score_breakdown": {
+          "keyword_score": 7.9,
+          "scoring_method": "Advanced Keyword Matching",
+          "components": {
+            "essential_score": 1.0,
+            "bonus_score": 0.0,
+            "structure_score": 0.94,
+            "negative_penalty": 0
+          }
+        },
+        "coverage_analysis": {
+          "essential_coverage": 100.0,
+          "bonus_coverage": 0.0,
+          "essential_groups_covered": "3/3",
+          "bonus_groups_covered": "0/3"
+        },
+        "improvement_suggestions": []
+      },
+      "audio_duration": 36.4553125,
+      "transcript_segments": [
+        {
+          "start": 0.11,
+          "end": 7.63,
+          "text": "okay so lists are mutable objects and tuples are immutable objects if you if"
+        },
+        {
+          "start": 7.63,
+          "end": 14.31,
+          "text": "you wanna keep a record static you use a tuple when and when you want to when"
+        },
+        {
+          "start": 14.31,
+          "end": 19.69,
+          "text": "you're constantly changing a value inside a mutable object that's when you"
+        },
+        {
+          "start": 19.69,
+          "end": 26.53,
+          "text": "can use lists they function they function similar to to an array like"
+        },
+        {
+          "start": 26.53,
+          "end": 33.61,
+          "text": "structure but like i said list would be a mutable object which is changeable and tuples"
+        },
+        {
+          "start": 33.61,
+          "end": 35.93,
+          "text": "are immutable non-changeable thank you"
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question_text": "How do you handle exceptions in Python? Can you give me an example?",
+      "audio_file": "Q03_answer.mp3",
+      "transcript": "so we can use the try try catch block to to catch exceptions if you for firstly if you have a have a type error you can just put a type error in the catch block while running your actual code in the try block if the if the catch block catches the exception it will display the exception and if the code runs successfully it will display whatever is inside the try block",
+      "confidence_evaluation": {
+        "response_time": 0.9,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 74,
+        "filler_count": 2,
+        "filler_ratio": 2.7,
+        "filler_details": {
+          "so": 1,
+          "repetitions": 1
+        },
+        "filler_categories": {
+          "stalling": 1,
+          "repetitions": 1
+        },
+        "fluency_score": 95.9,
+        "adjusted_fluency_score": 80.3,
+        "speech_rate_wpm": 232.9,
+        "gap_analysis": {
+          "total_duration": 35.68907029478458,
+          "speech_duration": 19.06000000000018,
+          "silence_duration": 16.6290702947844,
+          "speech_ratio": 0.5340570612394325,
+          "pause_count": 11,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.63,
+              "duration": 0.63,
+              "type": "normal"
+            },
+            {
+              "start": 3.08,
+              "end": 3.91,
+              "duration": 0.8300000000000001,
+              "type": "normal"
+            },
+            {
+              "start": 5.94,
+              "end": 6.51,
+              "duration": 0.5699999999999994,
+              "type": "normal"
+            },
+            {
+              "start": 8.17,
+              "end": 8.8,
+              "duration": 0.6300000000000008,
+              "type": "normal"
+            },
+            {
+              "start": 10.15,
+              "end": 10.88,
+              "duration": 0.7300000000000004,
+              "type": "normal"
+            },
+            {
+              "start": 14.14,
+              "end": 15.21,
+              "duration": 1.0700000000000003,
+              "type": "normal"
+            },
+            {
+              "start": 15.68,
+              "end": 16.3,
+              "duration": 0.620000000000001,
+              "type": "normal"
+            },
+            {
+              "start": 17.88,
+              "end": 18.54,
+              "duration": 0.6600000000000001,
+              "type": "normal"
+            },
+            {
+              "start": 21.46,
+              "end": 22.31,
+              "duration": 0.8499999999999979,
+              "type": "normal"
+            },
+            {
+              "start": 30.15,
+              "end": 30.73,
+              "duration": 0.5800000000000018,
+              "type": "normal"
+            },
+            {
+              "start": 31.59,
+              "end": 32.11,
+              "duration": 0.5199999999999996,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.6990909090909092,
+            "max_pause_duration": 1.0700000000000003,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 11,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.7,
+          "max_pause_duration": 1.07,
+          "speech_ratio": 53.4
+        }
+      },
+      "answer_evaluation": {
+        "question_index": 2,
+        "question_type": "python_error_handling",
+        "combined_score": 7.0,
+        "keyword_evaluation": {
+          "keyword_score": 7.0,
+          "detailed_breakdown": {
+            "essential_score": 1.0,
+            "bonus_score": 0.0,
+            "structure_score": 1.0,
+            "negative_penalty": 0
+          },
+          "matches_found": {
+            "exact": {
+              "essential": {
+                "exception_basics": [
+                  "exception",
+                  "error",
+                  "try",
+                  "except"
+                ],
+                "structure": [
+                  "try block"
+                ],
+                "examples": [
+                  "code"
+                ]
+              },
+              "bonus": {}
+            },
+            "semantic": {
+              "essential": {},
+              "bonus": {}
+            },
+            "patterns": [],
+            "synonyms": {
+              "essential": {
+                "examples": [
+                  "code (synonym for implement)"
+                ]
+              },
+              "bonus": {}
+            }
+          },
+          "coverage_analysis": {
+            "essential_coverage": 100.0,
+            "bonus_coverage": 0.0,
+            "essential_groups_covered": "3/3",
+            "bonus_groups_covered": "0/3"
+          },
+          "improvement_suggestions": []
+        },
+        "score_breakdown": {
+          "keyword_score": 7.0,
+          "scoring_method": "Advanced Keyword Matching",
+          "components": {
+            "essential_score": 1.0,
+            "bonus_score": 0.0,
+            "structure_score": 1.0,
+            "negative_penalty": 0
+          }
+        },
+        "coverage_analysis": {
+          "essential_coverage": 100.0,
+          "bonus_coverage": 0.0,
+          "essential_groups_covered": "3/3",
+          "bonus_groups_covered": "0/3"
+        },
+        "improvement_suggestions": []
+      },
+      "audio_duration": 35.6890625,
+      "transcript_segments": [
+        {
+          "start": 1.37,
+          "end": 6.51,
+          "text": "so we can use the try try catch block to"
+        },
+        {
+          "start": 6.51,
+          "end": 11.37,
+          "text": "to catch exceptions if you for firstly"
+        },
+        {
+          "start": 11.37,
+          "end": 13.69,
+          "text": "if you have a have a type error you can"
+        },
+        {
+          "start": 13.69,
+          "end": 17.71,
+          "text": "just put a type error in the catch block"
+        },
+        {
+          "start": 18.41,
+          "end": 20.83,
+          "text": "while running your actual code in the"
+        },
+        {
+          "start": 20.83,
+          "end": 25.11,
+          "text": "try block if the if the catch block"
+        },
+        {
+          "start": 25.11,
+          "end": 27.33,
+          "text": "catches the exception it will display the"
+        },
+        {
+          "start": 27.33,
+          "end": 29.35,
+          "text": "exception and if the code runs"
+        },
+        {
+          "start": 29.35,
+          "end": 33.21,
+          "text": "successfully it will display whatever is inside the try block"
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the difference between SQL JOIN types? Explain INNER, LEFT, RIGHT, and OUTER joins.",
+      "audio_file": "Q04_answer.mp3",
+      "transcript": "Okay, so there are four different types of joins, inner, outer, left and right. So for the inner join, it takes the data from the secondary database or the secondary table and it takes the common columns into the primary table, that's inner join. Now for outer join, it takes everything from the secondary table into the primary and displays everything from the primary table. Left join, it takes the common columns from secondary into primary. And for the right join, it's the other way around where the secondary takes the primary's columns.",
+      "confidence_evaluation": {
+        "response_time": 1.5,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 93,
+        "filler_count": 6,
+        "filler_ratio": 6.5,
+        "filler_details": {
+          "right": 2,
+          "okay": 1,
+          "now": 1,
+          "so": 2
+        },
+        "filler_categories": {
+          "discourse_markers": 3,
+          "stalling": 3
+        },
+        "fluency_score": 90.3,
+        "adjusted_fluency_score": 79.0,
+        "speech_rate_wpm": 165.9,
+        "gap_analysis": {
+          "total_duration": 53.893514739229026,
+          "speech_duration": 33.640000000001876,
+          "silence_duration": 20.25351473922715,
+          "speech_ratio": 0.6241938415553989,
+          "pause_count": 11,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.67,
+              "duration": 0.67,
+              "type": "normal"
+            },
+            {
+              "start": 5.03,
+              "end": 5.64,
+              "duration": 0.6099999999999994,
+              "type": "normal"
+            },
+            {
+              "start": 6.26,
+              "end": 6.78,
+              "duration": 0.5200000000000005,
+              "type": "normal"
+            },
+            {
+              "start": 9.0,
+              "end": 9.56,
+              "duration": 0.5600000000000005,
+              "type": "normal"
+            },
+            {
+              "start": 9.59,
+              "end": 10.44,
+              "duration": 0.8499999999999996,
+              "type": "normal"
+            },
+            {
+              "start": 11.09,
+              "end": 11.63,
+              "duration": 0.5400000000000009,
+              "type": "normal"
+            },
+            {
+              "start": 18.82,
+              "end": 19.32,
+              "duration": 0.5,
+              "type": "normal"
+            },
+            {
+              "start": 33.09,
+              "end": 33.77,
+              "duration": 0.6799999999999997,
+              "type": "normal"
+            },
+            {
+              "start": 40.99,
+              "end": 41.53,
+              "duration": 0.5399999999999991,
+              "type": "normal"
+            },
+            {
+              "start": 43.11,
+              "end": 43.74,
+              "duration": 0.6300000000000026,
+              "type": "normal"
+            },
+            {
+              "start": 49.91,
+              "end": 50.63,
+              "duration": 0.720000000000006,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.6200000000000008,
+            "max_pause_duration": 0.8499999999999996,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 11,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.62,
+          "max_pause_duration": 0.85,
+          "speech_ratio": 62.4
+        }
+      },
+      "answer_evaluation": {
+        "question_index": 3,
+        "question_type": "sql_joins",
+        "combined_score": 5.7,
+        "keyword_evaluation": {
+          "keyword_score": 5.7,
+          "detailed_breakdown": {
+            "essential_score": 0.67,
+            "bonus_score": 0.0,
+            "structure_score": 1.0,
+            "negative_penalty": 0
+          },
+          "matches_found": {
+            "exact": {
+              "essential": {
+                "join_types": [
+                  "inner join",
+                  "left join",
+                  "right join",
+                  "outer join"
+                ],
+                "concepts": [
+                  "table"
+                ]
+              },
+              "bonus": {}
+            },
+            "semantic": {
+              "essential": {},
+              "bonus": {}
+            },
+            "patterns": [],
+            "synonyms": {
+              "essential": {},
+              "bonus": {}
+            }
+          },
+          "coverage_analysis": {
+            "essential_coverage": 66.7,
+            "bonus_coverage": 0.0,
+            "essential_groups_covered": "2/3",
+            "bonus_groups_covered": "0/3"
+          },
+          "improvement_suggestions": [
+            "Consider mentioning explanation: difference, when, use"
+          ]
+        },
+        "score_breakdown": {
+          "keyword_score": 5.7,
+          "scoring_method": "Advanced Keyword Matching",
+          "components": {
+            "essential_score": 0.67,
+            "bonus_score": 0.0,
+            "structure_score": 1.0,
+            "negative_penalty": 0
+          }
+        },
+        "coverage_analysis": {
+          "essential_coverage": 66.7,
+          "bonus_coverage": 0.0,
+          "essential_groups_covered": "2/3",
+          "bonus_groups_covered": "0/3"
+        },
+        "improvement_suggestions": [
+          "Consider mentioning explanation: difference, when, use"
+        ]
+      },
+      "audio_duration": 53.8935,
+      "transcript_segments": [
+        {
+          "start": 0.18,
+          "end": 6.16,
+          "text": "Okay, so there are four different types of joins, inner, outer, left and right."
+        },
+        {
+          "start": 6.32,
+          "end": 18.04,
+          "text": "So for the inner join, it takes the data from the secondary database or the secondary table"
+        },
+        {
+          "start": 18.04,
+          "end": 24.46,
+          "text": "and it takes the common columns into the primary table, that's inner join."
+        },
+        {
+          "start": 24.46,
+          "end": 32.88,
+          "text": "Now for outer join, it takes everything from the secondary table into the primary and displays everything from the primary table."
+        },
+        {
+          "start": 33.44,
+          "end": 44.04,
+          "text": "Left join, it takes the common columns from secondary into primary."
+        },
+        {
+          "start": 44.68,
+          "end": 52.38,
+          "text": "And for the right join, it's the other way around where the secondary takes the primary's columns."
+        }
+      ]
+    }
+  ],
+  "content_analysis_summary": {
+    "average_content_score": 6.3,
+    "highest_score": 7.9,
+    "lowest_score": 4.6,
+    "total_questions_evaluated": 4,
+    "questions_above_7": 2,
+    "questions_below_5": 1,
+    "score_distribution": {
+      "excellent (8-10)": 0,
+      "good (6-7.9)": 2,
+      "fair (4-5.9)": 2,
+      "poor (0-3.9)": 0
+    },
+    "evaluation_method": "Advanced Keyword Matching with Semantic Analysis"
+  }
+}
