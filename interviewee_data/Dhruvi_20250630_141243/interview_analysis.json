@@ -69,7 +69,43 @@
           "end": 14.5,
           "text": "Right now I am pursuing my industrial project of one year in DevIT."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 0,
+        "question_type": "behavioral",
+        "combined_score": 5.4,
+        "keyword_evaluation": {
+          "keyword_score": 0,
+          "found_required": [],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "background",
+            "experience",
+            "education"
+          ],
+          "coverage_percentage": 0.0
+        },
+        "llm_evaluation": {
+          "relevance": 6.0,
+          "structure": 8.0,
+          "specificity": 4.0,
+          "professionalism": 9.0,
+          "strengths": [
+            "LLM provided scores"
+          ],
+          "weaknesses": [
+            "Response formatting irregular"
+          ],
+          "overall_assessment": "Scores extracted from irregular response format"
+        },
+        "score_breakdown": {
+          "keyword_score": 0,
+          "llm_average": 6.8,
+          "keyword_weight": 0.2,
+          "llm_weight": 0.8
+        }
+      }
     },
     {
       "question_number": 2,
@@ -131,7 +167,45 @@
           "end": 12.15,
           "text": "I am interested in this position because I am pursuing my master's in the same field, so I feel that could align with my job profile too."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 1,
+        "question_type": "behavioral",
+        "combined_score": 5.9,
+        "keyword_evaluation": {
+          "keyword_score": 3.5,
+          "found_required": [
+            "interested",
+            "position"
+          ],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "company",
+            "role"
+          ],
+          "coverage_percentage": 50.0
+        },
+        "llm_evaluation": {
+          "relevance": 6.0,
+          "structure": 8.0,
+          "specificity": 5.0,
+          "professionalism": 9.0,
+          "strengths": [
+            "LLM provided scores"
+          ],
+          "weaknesses": [
+            "Response formatting irregular"
+          ],
+          "overall_assessment": "Scores extracted from irregular response format"
+        },
+        "score_breakdown": {
+          "keyword_score": 3.5,
+          "llm_average": 7.0,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     },
     {
       "question_number": 3,
@@ -193,7 +267,44 @@
           "end": 9.12,
           "text": "My greatest strengths are the projects I have been pursuing in the same field and I can work with the team well too."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 2,
+        "question_type": "behavioral",
+        "combined_score": 4.4,
+        "keyword_evaluation": {
+          "keyword_score": 2.3,
+          "found_required": [
+            "strength"
+          ],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "skill",
+            "good at"
+          ],
+          "coverage_percentage": 33.3
+        },
+        "llm_evaluation": {
+          "relevance": 4.0,
+          "structure": 6.0,
+          "specificity": 3.0,
+          "professionalism": 8.0,
+          "strengths": [
+            "LLM provided scores"
+          ],
+          "weaknesses": [
+            "Response formatting irregular"
+          ],
+          "overall_assessment": "Scores extracted from irregular response format"
+        },
+        "score_breakdown": {
+          "keyword_score": 2.3,
+          "llm_average": 5.2,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     },
     {
       "question_number": 4,
@@ -267,7 +378,45 @@
           "end": 20.09,
           "text": "In one of my projects, I have been facing a lot of problems, so in that, I used my friend's help to solve that out and this is how I handled it."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 3,
+        "question_type": "behavioral",
+        "combined_score": 2.8,
+        "keyword_evaluation": {
+          "keyword_score": 3.5,
+          "found_required": [
+            "problem",
+            "handled"
+          ],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "challenge",
+            "situation"
+          ],
+          "coverage_percentage": 50.0
+        },
+        "llm_evaluation": {
+          "relevance": 2.0,
+          "structure": 4.0,
+          "specificity": 1.0,
+          "professionalism": 3.0,
+          "strengths": [
+            "LLM provided scores"
+          ],
+          "weaknesses": [
+            "Response formatting irregular"
+          ],
+          "overall_assessment": "Scores extracted from irregular response format"
+        },
+        "score_breakdown": {
+          "keyword_score": 3.5,
+          "llm_average": 2.5,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     },
     {
       "question_number": 5,
@@ -325,7 +474,46 @@
           "end": 3.41,
           "text": "My biggest weakness is anger issues."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 4,
+        "question_type": "behavioral",
+        "combined_score": 4.0,
+        "keyword_evaluation": {
+          "keyword_score": 2.3,
+          "found_required": [
+            "weakness"
+          ],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "improve",
+            "working on"
+          ],
+          "coverage_percentage": 33.3
+        },
+        "llm_evaluation": {
+          "relevance": 7,
+          "structure": 5,
+          "specificity": 3,
+          "professionalism": 4,
+          "strengths": [
+            "Honesty",
+            "Awareness of personal issues"
+          ],
+          "weaknesses": [
+            "Lack of self-regulation skills",
+            "Potential impact on work relationships"
+          ],
+          "overall_assessment": "The candidate attempts to address the question but provides a somewhat vague and potentially negative response, which may raise concerns about their emotional intelligence and ability to manage stress in a professional setting."
+        },
+        "score_breakdown": {
+          "keyword_score": 2.3,
+          "llm_average": 4.8,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     },
     {
       "question_number": 6,
@@ -383,7 +571,46 @@
           "end": 13.26,
           "text": "I see myself as a team lead in a IT company managing at a CMF3 level for the AI and data division."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 5,
+        "question_type": "behavioral",
+        "combined_score": 4.7,
+        "keyword_evaluation": {
+          "keyword_score": 0,
+          "found_required": [],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "five years",
+            "future",
+            "goals",
+            "career"
+          ],
+          "coverage_percentage": 0.0
+        },
+        "llm_evaluation": {
+          "relevance": 6,
+          "structure": 8,
+          "specificity": 4,
+          "professionalism": 9,
+          "strengths": [
+            "Clearly articulates career aspirations and expectations",
+            "Shows ambition and drive for a leadership role"
+          ],
+          "weaknesses": [
+            "Lack of concrete examples to support their claim",
+            "Unclear on the specific skills or experiences required for a CMF3 level position"
+          ],
+          "overall_assessment": "The candidate provides a clear vision for their future career, but falls short in providing tangible evidence and understanding of the role's requirements."
+        },
+        "score_breakdown": {
+          "keyword_score": 0,
+          "llm_average": 6.8,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     },
     {
       "question_number": 7,
@@ -466,7 +693,44 @@
           "end": 19.64,
           "text": "Nice question. Because I am right now pursuing the same field and so I guess it would be great to align the goals. Also, it is a very nice opportunity."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 6,
+        "question_type": "behavioral",
+        "combined_score": 3.5,
+        "keyword_evaluation": {
+          "keyword_score": 0,
+          "found_required": [],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "hire",
+            "value",
+            "bring",
+            "contribute"
+          ],
+          "coverage_percentage": 0.0
+        },
+        "llm_evaluation": {
+          "relevance": 4.0,
+          "structure": 6.0,
+          "specificity": 2.0,
+          "professionalism": 8.0,
+          "strengths": [
+            "LLM provided scores"
+          ],
+          "weaknesses": [
+            "Response formatting irregular"
+          ],
+          "overall_assessment": "Scores extracted from irregular response format"
+        },
+        "score_breakdown": {
+          "keyword_score": 0,
+          "llm_average": 5.0,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     },
     {
       "question_number": 8,
@@ -528,7 +792,45 @@
           "end": 14.56,
           "text": "I have been working in team projects since last two to three years, since my bachelor's. Also in my master's, I have been working in different team projects. So I have experience of working in teams."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 7,
+        "question_type": "behavioral",
+        "combined_score": 4.4,
+        "keyword_evaluation": {
+          "keyword_score": 1.8,
+          "found_required": [
+            "team"
+          ],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "worked",
+            "collaboration",
+            "together"
+          ],
+          "coverage_percentage": 25.0
+        },
+        "llm_evaluation": {
+          "relevance": 6.0,
+          "structure": 4.0,
+          "specificity": 3.0,
+          "professionalism": 9.0,
+          "strengths": [
+            "LLM provided scores"
+          ],
+          "weaknesses": [
+            "Response formatting irregular"
+          ],
+          "overall_assessment": "Scores extracted from irregular response format"
+        },
+        "score_breakdown": {
+          "keyword_score": 1.8,
+          "llm_average": 5.5,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     },
     {
       "question_number": 9,
@@ -586,7 +888,55 @@
           "end": 4.77,
           "text": "I prefer listening music to handle my stress and pressure."
         }
-      ]
+      ],
+      "answer_evaluation": {
+        "question_index": 8,
+        "question_type": "behavioral",
+        "combined_score": 5.2,
+        "keyword_evaluation": {
+          "keyword_score": 5.2,
+          "found_required": [
+            "stress",
+            "pressure",
+            "handle"
+          ],
+          "found_bonus": [],
+          "found_negative": [],
+          "missing_required": [
+            "manage"
+          ],
+          "coverage_percentage": 75.0
+        },
+        "llm_evaluation": {
+          "relevance": 4,
+          "structure": 6,
+          "specificity": 3,
+          "professionalism": 8,
+          "strengths": [
+            "shows personal coping mechanism",
+            "acknowledges need for stress management"
+          ],
+          "weaknesses": [
+            "lacks depth and breadth in addressing stress and pressure",
+            "may not be applicable to work-related situations"
+          ],
+          "overall_assessment": "The candidate demonstrates a basic understanding of managing stress, but their answer lacks specificity, structure, and professional context."
+        },
+        "score_breakdown": {
+          "keyword_score": 5.2,
+          "llm_average": 5.2,
+          "keyword_weight": 0.3,
+          "llm_weight": 0.7
+        }
+      }
     }
-  ]
+  ],
+  "content_analysis_summary": {
+    "average_content_score": 4.5,
+    "highest_score": 5.9,
+    "lowest_score": 2.8,
+    "total_questions_evaluated": 9,
+    "questions_above_7": 0,
+    "questions_below_5": 6
+  }
 }

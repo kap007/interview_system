@@ -1,6 +1,5 @@
 # ================================
-# 6. main_interview_system.py
-# Main orchestrator that ties everything together
+# 2. UPDATED main_interview_system.py
 # ================================
 
 import tkinter as tk
@@ -17,6 +16,9 @@ from speech_analyzer import SpeechAnalyzer
 from transcription_service import TranscriptionService
 from timing_analyzer import TimingAnalyzer
 from report_generator import ReportGenerator
+from answer_evaluator import AnswerEvaluator  # NEW IMPORT
+from answer_evaluator import LlamaClient
+llm_client = LlamaClient()
 
 class InterviewSystem:
     def __init__(self):
@@ -26,11 +28,17 @@ class InterviewSystem:
         self.transcription_service = TranscriptionService()
         self.timing_analyzer = TimingAnalyzer()
         self.report_generator = ReportGenerator()
-        
+        self.answer_evaluator = AnswerEvaluator()
+
         # Initialize TTS
         self.tts_engine = pyttsx3.init()
         self.tts_engine.setProperty('rate', 150)
         self.tts_engine.setProperty('volume', 0.9)
+        
+        # Add automated recording control
+        self.auto_recording = False
+        self.silence_timeout_timer = None
+        self.SILENCE_TIMEOUT = 30  # 30 seconds timeout
         
         # Interview state
         self.current_question = 0
@@ -41,10 +49,6 @@ class InterviewSystem:
             'session_start': None,
             'questions_data': []
         }
-
-        self.auto_recording = False
-        self.silence_timeout_timer = None
-        self.SILENCE_TIMEOUT = 30
         
         self.setup_gui()
     
@@ -65,13 +69,13 @@ class InterviewSystem:
     def setup_gui(self):
         """Setup the main GUI with automated recording"""
         self.root = tk.Tk()
-        self.root.title("Automated Interview System")
+        self.root.title("Automated Interview System with Answer Evaluation")
         self.root.geometry("800x600")
         
         main_frame = ttk.Frame(self.root, padding="20")
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
-        # Candidate info (unchanged)
+        # Candidate info
         info_frame = ttk.LabelFrame(main_frame, text="Candidate Information", padding="10")
         info_frame.grid(row=0, column=0, sticky=(tk.W, tk.E), pady=10)
         
@@ -84,14 +88,14 @@ class InterviewSystem:
         self.folder_label.grid(row=1, column=1, sticky=tk.W, padx=5)
         ttk.Button(info_frame, text="Browse", command=self.select_folder).grid(row=1, column=2, padx=5)
         
-        # Question display (unchanged)
+        # Question display
         question_frame = ttk.LabelFrame(main_frame, text="Current Question", padding="10")
         question_frame.grid(row=1, column=0, sticky=(tk.W, tk.E), pady=10)
         
         self.question_text = scrolledtext.ScrolledText(question_frame, height=5, width=70, wrap=tk.WORD)
         self.question_text.grid(row=0, column=0, pady=5)
         
-        # === SIMPLIFIED CONTROLS (No Start/Stop Recording buttons) ===
+        # Simplified controls (No Start/Stop Recording buttons)
         control_frame = ttk.Frame(question_frame)
         control_frame.grid(row=1, column=0, pady=10)
         
@@ -101,29 +105,26 @@ class InterviewSystem:
         self.speak_btn = ttk.Button(control_frame, text="Speak Question", command=self.speak_question, state='disabled')
         self.speak_btn.grid(row=0, column=1, padx=5)
         
-        # REMOVED: Start Recording and Stop Recording buttons
-        
         self.next_btn = ttk.Button(control_frame, text="Next Question", command=self.next_question, state='disabled')
         self.next_btn.grid(row=0, column=2, padx=5)
         
         self.finish_btn = ttk.Button(control_frame, text="Finish Interview", command=self.finish_interview, state='disabled')
         self.finish_btn.grid(row=0, column=3, padx=5)
         
-        # === ENHANCED STATUS with Recording Indicator ===
+        # Enhanced status with recording indicator
         status_frame = ttk.Frame(main_frame)
         status_frame.grid(row=2, column=0, pady=10)
         
         self.status_label = ttk.Label(status_frame, text="Ready to start", font=('Arial', 12))
         self.status_label.grid(row=0, column=0)
         
-        # Enhanced recording indicator
         self.recording_indicator = ttk.Label(status_frame, text="⚫", foreground="gray", font=('Arial', 20))
         self.recording_indicator.grid(row=0, column=1, padx=20)
         
         self.recording_status = ttk.Label(status_frame, text="", font=('Arial', 10, 'italic'), foreground="gray")
         self.recording_status.grid(row=1, column=0, columnspan=2)
         
-        # Progress (unchanged)
+        # Progress
         self.progress_label = ttk.Label(main_frame, text="Question 0 of 0")
         self.progress_label.grid(row=3, column=0, pady=5)
         
@@ -198,18 +199,22 @@ class InterviewSystem:
         """Automatically start recording after question is spoken"""
         self.speak_btn.config(state='disabled')
         self.next_btn.config(state='normal')
+        
         # Visual feedback for auto-recording
         self.status_label.config(text="🎤 Recording your answer...")
         self.recording_indicator.config(text="🔴", foreground="red")
         self.recording_status.config(text="Recording started automatically - speak your answer", foreground="blue")
+        
         # Start actual recording
         self.auto_recording = True
         self.audio_handler.start_recording()
+        
         # Start monitoring for first speech
         self.audio_handler.start_monitoring(callback=self.timing_analyzer.mark_first_speech)
+        
         # Start silence timeout timer
         self.start_silence_timeout()
-
+    
     def start_silence_timeout(self):
         """Start 30-second timeout for no speech detection"""
         def timeout_handler():
@@ -219,15 +224,6 @@ class InterviewSystem:
         
         self.silence_timeout_timer = threading.Timer(self.SILENCE_TIMEOUT, timeout_handler)
         self.silence_timeout_timer.start()
-    
-    def enable_recording(self):
-        """Enable recording after question is spoken"""
-        self.speak_btn.config(state='disabled')
-        self.record_btn.config(state='normal')
-        self.status_label.config(text="Ready to record answer")
-        
-        # Start monitoring for first speech
-        self.audio_handler.start_monitoring(callback=self.timing_analyzer.mark_first_speech)
     
     def handle_silence_timeout(self):
         """Handle case where user doesn't speak for 30 seconds"""
@@ -263,6 +259,36 @@ class InterviewSystem:
                 'adjusted_fluency_score': 0
             }
             
+            # NEW: Create zero answer evaluation
+            answer_evaluation = {
+                'question_index': self.current_question,
+                'question_type': 'behavioral',
+                'combined_score': 0,
+                'keyword_evaluation': {
+                    'keyword_score': 0,
+                    'found_required': [],
+                    'found_bonus': [],
+                    'found_negative': [],
+                    'missing_required': [],
+                    'coverage_percentage': 0
+                },
+                'llm_evaluation': {
+                    'relevance': 0,
+                    'structure': 0,
+                    'specificity': 0,
+                    'professionalism': 0,
+                    'strengths': [],
+                    'weaknesses': ['No response provided'],
+                    'overall_assessment': 'No answer given within time limit'
+                },
+                'score_breakdown': {
+                    'keyword_score': 0,
+                    'llm_average': 0,
+                    'keyword_weight': 0.3,
+                    'llm_weight': 0.7
+                }
+            }
+            
             # Save question data with zero scores
             question_num = self.current_question + 1
             question_data = {
@@ -272,6 +298,7 @@ class InterviewSystem:
                 'transcript': "",
                 'confidence_evaluation': confidence_evaluation,
                 'speech_analysis': speech_analysis,
+                'answer_evaluation': answer_evaluation,  # NEW: Add evaluation
                 'audio_duration': 0,
                 'transcript_segments': []
             }
@@ -283,76 +310,6 @@ class InterviewSystem:
             
             # Auto-move to next question after 2 seconds
             self.root.after(2000, self.auto_next_question)
-
-    def start_recording(self):
-        """Start recording candidate's answer"""
-        self.record_btn.config(state='disabled')
-        self.stop_btn.config(state='normal')
-        self.recording_indicator.config(text="🔴", foreground="red")
-        self.status_label.config(text="Recording...")
-        
-        self.audio_handler.start_recording()
-    
-    def stop_recording(self):
-        """Stop recording and process the answer"""
-    # === NEW: Mark when answer ended ===
-        self.timing_analyzer.mark_answer_end()
-        self.stop_btn.config(state='disabled')
-        self.recording_indicator.config(text="⚫", foreground="gray")
-        self.status_label.config(text="Processing...")
-        audio_data = self.audio_handler.stop_recording()
-    
-        if audio_data:
-            threading.Thread(target=self.process_answer, args=(audio_data,), daemon=True).start()
-        else:
-            self.enable_next()
-    
-    def process_answer(self, audio_data):
-        """Process the recorded answer with automated flow"""
-        try:
-            question_num = self.current_question + 1
-            mp3_path = os.path.join(self.candidate_session_folder, f"Q{question_num:02d}_answer.mp3")
-            
-            # Save audio file
-            self.audio_handler.save_audio(audio_data, mp3_path)
-            
-            # Transcribe audio
-            transcript, segments, info = self.transcription_service.transcribe(mp3_path)
-            
-            # Analyze timing/confidence
-            confidence_evaluation = self.timing_analyzer.evaluate_confidence()
-            
-            # Analyze speech (fillers, gaps, fluency)
-            speech_analysis = self.speech_analyzer.analyze_speech(transcript, mp3_path)
-            
-            # Save question data
-            question_data = {
-                'question_number': question_num,
-                'question_text': self.questions[self.current_question],
-                'audio_file': os.path.basename(mp3_path),
-                'transcript': transcript,
-                'confidence_evaluation': confidence_evaluation,
-                'speech_analysis': speech_analysis,
-                'audio_duration': info.duration if info else 0,
-                'transcript_segments': segments
-            }
-            
-            self.session_data['questions_data'].append(question_data)
-            
-            # Reset timing for next question
-            self.timing_analyzer.reset()
-            
-            # Continue to next question
-            self.root.after(0, self.auto_next_question)
-            
-        except Exception as e:
-            print(f"Processing error: {e}")
-            self.root.after(0, self.auto_next_question)
-    
-    def enable_next(self):
-        """Enable next question button"""
-        self.next_btn.config(state='normal')
-        self.status_label.config(text="Question complete")
     
     def next_question(self):
         """Process current answer and move to next question"""
@@ -378,6 +335,57 @@ class InterviewSystem:
         else:
             # Already processed or skipped
             self.auto_next_question()
+    
+    def process_answer(self, audio_data):
+        """Process the recorded answer with automated flow and evaluation"""
+        try:
+            question_num = self.current_question + 1
+            mp3_path = os.path.join(self.candidate_session_folder, f"Q{question_num:02d}_answer.mp3")
+            
+            # Save audio file
+            self.audio_handler.save_audio(audio_data, mp3_path)
+            
+            # Transcribe audio
+            transcript, segments, info = self.transcription_service.transcribe(mp3_path)
+            
+            # Analyze timing/confidence
+            confidence_evaluation = self.timing_analyzer.evaluate_confidence()
+            
+            # Analyze speech (fillers, gaps, fluency)
+            speech_analysis = self.speech_analyzer.analyze_speech(transcript, mp3_path)
+            
+            # NEW: Evaluate answer content
+            question_index = self.current_question  # 0-based index
+            answer_evaluation = self.answer_evaluator.evaluate_single_answer(
+                question_index, 
+                self.questions[question_index], 
+                transcript
+            )
+            
+            # Save question data
+            question_data = {
+                'question_number': question_num,
+                'question_text': self.questions[self.current_question],
+                'audio_file': os.path.basename(mp3_path),
+                'transcript': transcript,
+                'confidence_evaluation': confidence_evaluation,
+                'speech_analysis': speech_analysis,
+                'answer_evaluation': answer_evaluation,  
+                'audio_duration': info.duration if info else 0,
+                'transcript_segments': segments
+            }
+            
+            self.session_data['questions_data'].append(question_data)
+            
+            # Reset timing for next question
+            self.timing_analyzer.reset()
+            
+            # Continue to next question
+            self.root.after(0, self.auto_next_question)
+            
+        except Exception as e:
+            print(f"Processing error: {e}")
+            self.root.after(0, self.auto_next_question)
     
     def auto_next_question(self):
         """Automatically move to next question"""
@@ -440,13 +448,14 @@ class InterviewSystem:
         self.audio_handler.cleanup()
 
 def main():
-    print("🎯 MODULAR INTERVIEW SYSTEM")
-    print("=" * 40)
+    print("🎯 ADVANCED INTERVIEW SYSTEM WITH ANSWER EVALUATION")
+    print("=" * 60)
     print("Components loaded:")
     print("✅ Audio Handler - Recording & monitoring")
     print("✅ Speech Analyzer - Fillers, gaps, fluency")
     print("✅ Transcription Service - Whisper AI")
     print("✅ Timing Analyzer - Response confidence")
+    print("✅ Answer Evaluator - Content quality analysis")  
     print("✅ Report Generator - Comprehensive analysis")
     print()
     
@@ -479,10 +488,14 @@ def main():
         print("⚠️  matplotlib not installed - No visualizations")
         missing_deps.append("matplotlib")
     
+    # Check LLM integration
+    print("⚠️  LLM client not configured - Using default scores")
+    print("   Configure your Llama3.1:8b client in answer_evaluator initialization")
+    
     if missing_deps:
         print(f"\n📦 Optional packages to install: pip install {' '.join(missing_deps)}")
     
-    print("\n🚀 Starting interview system...")
+    print("\n🚀 Starting advanced interview system...")
     
     try:
         system = InterviewSystem()
