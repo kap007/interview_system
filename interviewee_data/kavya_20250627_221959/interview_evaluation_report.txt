@@ -1,0 +1,92 @@
+🎯 COMPREHENSIVE INTERVIEW EVALUATION REPORT
+============================================================
+
+Candidate: kavya
+Date: 2025-06-27 22:19:59
+Questions Completed: 6
+
+📊 OVERALL ANALYSIS
+--------------------
+Total Words: 320
+Total Fillers: 11 (3.4%)
+Base Fluency Score: 94.8/100
+Adjusted Fluency Score: 80.0/100
+Average Speech Rate: 249.7 words/minute
+Total Pauses: 26
+
+🔍 FILLER BREAKDOWN BY CATEGORY
+--------------------------------
+Discourse Markers: 2 (18.2%)
+Intensifiers: 1 (9.1%)
+Repetitions: 1 (9.1%)
+Stalling: 7 (63.6%)
+
+🎯 CONFIDENCE EVALUATION
+-------------------------
+Based on response timing analysis:
+
+High: 6 questions
+
+📈 FLUENCY ASSESSMENT
+--------------------
+🟢 EXCELLENT: Very fluent speech with minimal issues
+
+⏱️ SPEECH PACE ANALYSIS
+----------------------
+🟠 FAST: Speech rate above optimal (may indicate nervousness)
+
+📝 DETAILED QUESTION ANALYSIS
+------------------------------
+
+Question 1: Tell me about yourself and your background.
+Confidence: High (3.0s)
+Words: 41 | Fillers: 2 (4.9%)
+Fluency: 92.7/100 → 75.6/100 (adjusted)
+Speech Rate: 249.2 wpm | Pauses: 5 | Speech: 51.4%
+Top Fillers: now(1), right(1)
+Transcript: Hello sir, my name is Kaveh Patel and currently I am doing my B.Tech from Pandit Indayal Energy University and right now I also am doing an internship...
+----------------------------------------
+
+Question 2: Why are you interested in this position?
+Confidence: High (2.0s)
+Words: 52 | Fillers: 1 (1.9%)
+Fluency: 97.1/100 → 84.9/100 (adjusted)
+Speech Rate: 239.3 wpm | Pauses: 3 | Speech: 65.8%
+Top Fillers: so(1)
+Transcript: I've always been passionate about data science and data analysis. And I've had my courses in my curriculum designed as per my dream of becoming a data...
+----------------------------------------
+
+Question 3: What are your greatest strengths?
+Confidence: High (1.8s)
+Words: 51 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 82.7/100 (adjusted)
+Speech Rate: 281.3 wpm | Pauses: 3 | Speech: 55.8%
+Transcript: My greatest strengths first of all is my mindset. I have a very positive and straightforward mindset. My second strength would be my behavior to never...
+----------------------------------------
+
+Question 4: Describe a challenging situation you faced and how you handled it.
+Confidence: High (1.6s)
+Words: 75 | Fillers: 3 (4.0%)
+Fluency: 94.0/100 → 79.4/100 (adjusted)
+Speech Rate: 243.0 wpm | Pauses: 7 | Speech: 58.6%
+Top Fillers: so(2), kind of(1)
+Transcript: one of the most challenging situations i've faced is getting an internship without any prior experience so i tackled it by simply have me having make ...
+----------------------------------------
+
+Question 5: What is your biggest weakness?
+Confidence: High (2.1s)
+Words: 51 | Fillers: 3 (5.9%)
+Fluency: 91.2/100 → 77.1/100 (adjusted)
+Speech Rate: 261.8 wpm | Pauses: 3 | Speech: 63.4%
+Top Fillers: so(2), repetitions(1)
+Transcript: my biggest weakness is that i don't have any weaknesses that i know of there might be some weaknesses there there must be a weakness about me but i do...
+----------------------------------------
+
+Question 6: Where do you see yourself in five years?
+Confidence: High (2.6s)
+Words: 50 | Fillers: 2 (4.0%)
+Fluency: 94.0/100 → 80.5/100 (adjusted)
+Speech Rate: 223.5 wpm | Pauses: 5 | Speech: 58.9%
+Top Fillers: well(1), actually(1)
+Transcript: I see myself at a prominent role in the world in the field of data science. I might actually become a researcher or might be doing exceptionally well ...
+----------------------------------------

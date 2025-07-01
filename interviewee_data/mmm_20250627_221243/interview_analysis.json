@@ -1,0 +1,541 @@
+{
+  "candidate_name": "mmm",
+  "session_start": "2025-06-27 22:12:43.476375",
+  "questions_data": [
+    {
+      "question_number": 1,
+      "question_text": "Tell me about yourself and your background.",
+      "audio_file": "Q01_answer.mp3",
+      "transcript": "My name is Kaveh Patel and I have done B.Tech in Computer Science from Pandit Dindar L.G. University and I am interested in Data Science and also I am currently doing an internship at DevIT which is a global IT company and it provides IT business solutions.",
+      "confidence_evaluation": {
+        "response_time": 3.0,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 47,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 80.0,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 18.158,
+      "transcript_segments": [
+        {
+          "start": 0.27,
+          "end": 16.05,
+          "text": "My name is Kaveh Patel and I have done B.Tech in Computer Science from Pandit Dindar L.G. University and I am interested in Data Science and also I am currently doing an internship at DevIT which is a global IT company and it provides IT business solutions."
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question_text": "Why are you interested in this position?",
+      "audio_file": "Q02_answer.mp3",
+      "transcript": "I've always had a passion for data science and also I have the essential skills for it. I can clean data, I know whole pipeline process. So that's why I'm interested in this position because it's like my passion.",
+      "confidence_evaluation": {
+        "response_time": 2.4,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 39,
+        "filler_count": 2,
+        "filler_ratio": 5.1,
+        "filler_details": {
+          "so": 1,
+          "like": 1
+        },
+        "filler_categories": {
+          "stalling": 1,
+          "discourse_markers": 1
+        },
+        "fluency_score": 92.3,
+        "adjusted_fluency_score": 72.3,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 14.675,
+      "transcript_segments": [
+        {
+          "start": 0.5,
+          "end": 5.76,
+          "text": "I've always had a passion for data science and also I have the essential skills for it."
+        },
+        {
+          "start": 6.18,
+          "end": 9.36,
+          "text": "I can clean data, I know whole pipeline process."
+        },
+        {
+          "start": 9.74,
+          "end": 13.38,
+          "text": "So that's why I'm interested in this position because it's like my passion."
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question_text": "What are your greatest strengths?",
+      "audio_file": "Q03_answer.mp3",
+      "transcript": "My greatest strength would be my mindset. It is like never giving up. I never give up on myself. I never give up on anything. I always do the right thing and always solve any problem.",
+      "confidence_evaluation": {
+        "response_time": 1.4,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 36,
+        "filler_count": 2,
+        "filler_ratio": 5.6,
+        "filler_details": {
+          "right": 1,
+          "like": 1
+        },
+        "filler_categories": {
+          "discourse_markers": 2
+        },
+        "fluency_score": 91.7,
+        "adjusted_fluency_score": 71.7,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 13.3979375,
+      "transcript_segments": [
+        {
+          "start": 0.3,
+          "end": 12.22,
+          "text": "My greatest strength would be my mindset. It is like never giving up. I never give up on myself. I never give up on anything. I always do the right thing and always solve any problem."
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question_text": "Describe a challenging situation you faced and how you handled it.",
+      "audio_file": "Q04_answer.mp3",
+      "transcript": "One of the most challenging situations I have faced is my life",
+      "confidence_evaluation": {
+        "response_time": 3.2,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 12,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 80.0,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 7.4071875,
+      "transcript_segments": [
+        {
+          "start": 1.23,
+          "end": 6.01,
+          "text": "One of the most challenging situations I have faced is my life"
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is your biggest weakness?",
+      "audio_file": "Q05_answer.mp3",
+      "transcript": "My biggest weakness is my own self me myself and Like my weakness is I don't have any particular weaknesses",
+      "confidence_evaluation": {
+        "response_time": 2.4,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 20,
+        "filler_count": 1,
+        "filler_ratio": 5.0,
+        "filler_details": {
+          "like": 1
+        },
+        "filler_categories": {
+          "discourse_markers": 1
+        },
+        "fluency_score": 92.5,
+        "adjusted_fluency_score": 72.5,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 17.3453125,
+      "transcript_segments": [
+        {
+          "start": 0.5,
+          "end": 2.72,
+          "text": "My biggest weakness is my own self"
+        },
+        {
+          "start": 3.58,
+          "end": 5.58,
+          "text": "me myself and"
+        },
+        {
+          "start": 11.84,
+          "end": 16.34,
+          "text": "Like my weakness is I don't have any particular weaknesses"
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "question_text": "Where do you see yourself in five years?",
+      "audio_file": "Q06_answer.mp3",
+      "transcript": "I see myself as a successful happy man after 5 years.",
+      "confidence_evaluation": {
+        "response_time": 1.7,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 11,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 80.0,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 4.5975625,
+      "transcript_segments": [
+        {
+          "start": 0.27,
+          "end": 3.81,
+          "text": "I see myself as a successful happy man after 5 years."
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "question_text": "Why should we hire you?",
+      "audio_file": "Q07_answer.mp3",
+      "transcript": "hiring me means that you are recruiting a passionate person into your company who will work for your company who will do his work no matter what happens within his personal life",
+      "confidence_evaluation": {
+        "response_time": 1.9,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 32,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 80.0,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 11.6564375,
+      "transcript_segments": [
+        {
+          "start": 0.4,
+          "end": 5.24,
+          "text": "hiring me means that you are recruiting a passionate person into your company"
+        },
+        {
+          "start": 5.24,
+          "end": 10.7,
+          "text": "who will work for your company who will do his work no matter what happens within his personal life"
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "question_text": "Describe a time when you worked in a team.",
+      "audio_file": "Q08_answer.mp3",
+      "transcript": "I have worked in a team for various projects in my college years and also currently I am doing an internship where we are a team of 10 people. All of us are distributed in various projects but we do all work together.",
+      "confidence_evaluation": {
+        "response_time": 1.6,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 43,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 80.0,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 15.928875,
+      "transcript_segments": [
+        {
+          "start": 0.21,
+          "end": 14.85,
+          "text": "I have worked in a team for various projects in my college years and also currently I am doing an internship where we are a team of 10 people. All of us are distributed in various projects but we do all work together."
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "question_text": "How do you handle stress and pressure?",
+      "audio_file": "Q09_answer.mp3",
+      "transcript": "I don't stress or have any pressure on me because I love what I work. I love my work.",
+      "confidence_evaluation": {
+        "response_time": 2.5,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 19,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 80.0,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 6.2461875,
+      "transcript_segments": [
+        {
+          "start": 0.18,
+          "end": 4.54,
+          "text": "I don't stress or have any pressure on me because I love what I work."
+        },
+        {
+          "start": 4.98,
+          "end": 5.94,
+          "text": "I love my work."
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "question_text": "Do you have any questions for us?",
+      "audio_file": "Q10_answer.mp3",
+      "transcript": "No, I don't have any questions for you. Thank you very much",
+      "confidence_evaluation": {
+        "response_time": 1.3,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 12,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 80.0,
+        "speech_rate_wpm": null,
+        "gap_analysis": {
+          "total_duration": 0,
+          "speech_duration": 0,
+          "silence_duration": 0,
+          "speech_ratio": 0,
+          "pause_count": 0,
+          "pauses": [],
+          "pause_analysis": {
+            "avg_pause_duration": 0,
+            "max_pause_duration": 0,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 0,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0,
+          "max_pause_duration": 0,
+          "speech_ratio": 0
+        }
+      },
+      "audio_duration": 4.0403125,
+      "transcript_segments": [
+        {
+          "start": 0.02,
+          "end": 3.04,
+          "text": "No, I don't have any questions for you. Thank you very much"
+        }
+      ]
+    }
+  ]
+}

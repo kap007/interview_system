@@ -1,0 +1,592 @@
+{
+  "candidate_name": "Dhruvi",
+  "session_start": "2025-06-30 14:12:43.117137",
+  "questions_data": [
+    {
+      "question_number": 1,
+      "question_text": "Tell me about yourself and your background.",
+      "audio_file": "Q01_answer.mp3",
+      "transcript": "Myself Dhruvi Dalal. I am studying currently M.Tech in CSE from Ahmedabad University. Right now I am pursuing my industrial project of one year in DevIT.",
+      "confidence_evaluation": {
+        "response_time": 1.3,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 26,
+        "filler_count": 2,
+        "filler_ratio": 7.7,
+        "filler_details": {
+          "right": 1,
+          "now": 1
+        },
+        "filler_categories": {
+          "discourse_markers": 1,
+          "stalling": 1
+        },
+        "fluency_score": 88.5,
+        "adjusted_fluency_score": 79.3,
+        "speech_rate_wpm": 131.0,
+        "gap_analysis": {
+          "total_duration": 17.136326530612244,
+          "speech_duration": 11.90999999999979,
+          "silence_duration": 5.226326530612454,
+          "speech_ratio": 0.6950147675304756,
+          "pause_count": 1,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 1.02,
+              "duration": 1.02,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 1.02,
+            "max_pause_duration": 1.02,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 1,
+          "significant_pauses": 0,
+          "avg_pause_duration": 1.02,
+          "max_pause_duration": 1.02,
+          "speech_ratio": 69.5
+        }
+      },
+      "audio_duration": 17.1363125,
+      "transcript_segments": [
+        {
+          "start": 0.34,
+          "end": 7.78,
+          "text": "Myself Dhruvi Dalal. I am studying currently M.Tech in CSE from Ahmedabad University."
+        },
+        {
+          "start": 8.28,
+          "end": 14.5,
+          "text": "Right now I am pursuing my industrial project of one year in DevIT."
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question_text": "Why are you interested in this position?",
+      "audio_file": "Q02_answer.mp3",
+      "transcript": "I am interested in this position because I am pursuing my master's in the same field, so I feel that could align with my job profile too.",
+      "confidence_evaluation": {
+        "response_time": 1.1,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 27,
+        "filler_count": 1,
+        "filler_ratio": 3.7,
+        "filler_details": {
+          "so": 1
+        },
+        "filler_categories": {
+          "stalling": 1
+        },
+        "fluency_score": 94.4,
+        "adjusted_fluency_score": 86.5,
+        "speech_rate_wpm": 170.7,
+        "gap_analysis": {
+          "total_duration": 12.910294784580499,
+          "speech_duration": 9.489999999999842,
+          "silence_duration": 3.4202947845806566,
+          "speech_ratio": 0.7350722937275057,
+          "pause_count": 1,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.89,
+              "duration": 0.89,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.89,
+            "max_pause_duration": 0.89,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 1,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.89,
+          "max_pause_duration": 0.89,
+          "speech_ratio": 73.5
+        }
+      },
+      "audio_duration": 12.9103125,
+      "transcript_segments": [
+        {
+          "start": 0.53,
+          "end": 12.15,
+          "text": "I am interested in this position because I am pursuing my master's in the same field, so I feel that could align with my job profile too."
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question_text": "What are your greatest strengths?",
+      "audio_file": "Q03_answer.mp3",
+      "transcript": "My greatest strengths are the projects I have been pursuing in the same field and I can work with the team well too.",
+      "confidence_evaluation": {
+        "response_time": 1.8,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 23,
+        "filler_count": 1,
+        "filler_ratio": 4.3,
+        "filler_details": {
+          "well": 1
+        },
+        "filler_categories": {
+          "stalling": 1
+        },
+        "fluency_score": 93.5,
+        "adjusted_fluency_score": 81.0,
+        "speech_rate_wpm": 217.3,
+        "gap_analysis": {
+          "total_duration": 10.356099773242631,
+          "speech_duration": 6.349999999999909,
+          "silence_duration": 4.006099773242722,
+          "speech_ratio": 0.6131652010930405,
+          "pause_count": 1,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 1.51,
+              "duration": 1.51,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 1.51,
+            "max_pause_duration": 1.51,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 1,
+          "significant_pauses": 0,
+          "avg_pause_duration": 1.51,
+          "max_pause_duration": 1.51,
+          "speech_ratio": 61.3
+        }
+      },
+      "audio_duration": 10.356125,
+      "transcript_segments": [
+        {
+          "start": 1.1,
+          "end": 9.12,
+          "text": "My greatest strengths are the projects I have been pursuing in the same field and I can work with the team well too."
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question_text": "Describe a challenging situation you faced and how you handled it.",
+      "audio_file": "Q04_answer.mp3",
+      "transcript": "In one of my projects, I have been facing a lot of problems, so in that, I used my friend's help to solve that out and this is how I handled it.",
+      "confidence_evaluation": {
+        "response_time": 0.9,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 32,
+        "filler_count": 1,
+        "filler_ratio": 3.1,
+        "filler_details": {
+          "so": 1
+        },
+        "filler_categories": {
+          "stalling": 1
+        },
+        "fluency_score": 95.3,
+        "adjusted_fluency_score": 86.5,
+        "speech_rate_wpm": 130.7,
+        "gap_analysis": {
+          "total_duration": 20.805079365079365,
+          "speech_duration": 14.689999999999731,
+          "silence_duration": 6.115079365079634,
+          "speech_ratio": 0.7060775756835809,
+          "pause_count": 3,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.65,
+              "duration": 0.65,
+              "type": "normal"
+            },
+            {
+              "start": 9.73,
+              "end": 10.26,
+              "duration": 0.5299999999999994,
+              "type": "normal"
+            },
+            {
+              "start": 12.45,
+              "end": 13.38,
+              "duration": 0.9300000000000015,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.7033333333333336,
+            "max_pause_duration": 0.9300000000000015,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 3,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.7,
+          "max_pause_duration": 0.93,
+          "speech_ratio": 70.6
+        }
+      },
+      "audio_duration": 20.8050625,
+      "transcript_segments": [
+        {
+          "start": 0.27,
+          "end": 20.09,
+          "text": "In one of my projects, I have been facing a lot of problems, so in that, I used my friend's help to solve that out and this is how I handled it."
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is your biggest weakness?",
+      "audio_file": "Q05_answer.mp3",
+      "transcript": "My biggest weakness is anger issues.",
+      "confidence_evaluation": {
+        "response_time": 0.9,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 6,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 85.6,
+        "speech_rate_wpm": 99.2,
+        "gap_analysis": {
+          "total_duration": 6.942766439909297,
+          "speech_duration": 3.6299999999999666,
+          "silence_duration": 3.3127664399093306,
+          "speech_ratio": 0.5228463367474868,
+          "pause_count": 1,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.61,
+              "duration": 0.61,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.61,
+            "max_pause_duration": 0.61,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 1,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.61,
+          "max_pause_duration": 0.61,
+          "speech_ratio": 52.3
+        }
+      },
+      "audio_duration": 6.94275,
+      "transcript_segments": [
+        {
+          "start": 0.21,
+          "end": 3.41,
+          "text": "My biggest weakness is anger issues."
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "question_text": "Where do you see yourself in five years?",
+      "audio_file": "Q06_answer.mp3",
+      "transcript": "I see myself as a team lead in a IT company managing at a CMF3 level for the AI and data division.",
+      "confidence_evaluation": {
+        "response_time": 0.9,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 22,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 91.7,
+        "speech_rate_wpm": 126.1,
+        "gap_analysis": {
+          "total_duration": 14.466031746031746,
+          "speech_duration": 10.469999999999821,
+          "silence_duration": 3.9960317460319246,
+          "speech_ratio": 0.7237644838483023,
+          "pause_count": 1,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.66,
+              "duration": 0.66,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.66,
+            "max_pause_duration": 0.66,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 1,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.66,
+          "max_pause_duration": 0.66,
+          "speech_ratio": 72.4
+        }
+      },
+      "audio_duration": 14.4660625,
+      "transcript_segments": [
+        {
+          "start": 0.3,
+          "end": 13.26,
+          "text": "I see myself as a team lead in a IT company managing at a CMF3 level for the AI and data division."
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "question_text": "Why should we hire you?",
+      "audio_file": "Q07_answer.mp3",
+      "transcript": "Nice question. Because I am right now pursuing the same field and so I guess it would be great to align the goals. Also, it is a very nice opportunity.",
+      "confidence_evaluation": {
+        "response_time": 1.4,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 30,
+        "filler_count": 3,
+        "filler_ratio": 10.0,
+        "filler_details": {
+          "right": 1,
+          "so": 1,
+          "now": 1
+        },
+        "filler_categories": {
+          "discourse_markers": 1,
+          "stalling": 2
+        },
+        "fluency_score": 85.0,
+        "adjusted_fluency_score": 73.2,
+        "speech_rate_wpm": 144.9,
+        "gap_analysis": {
+          "total_duration": 20.456780045351476,
+          "speech_duration": 12.41999999999978,
+          "silence_duration": 8.036780045351696,
+          "speech_ratio": 0.6071336726730879,
+          "pause_count": 4,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 1.06,
+              "duration": 1.06,
+              "type": "normal"
+            },
+            {
+              "start": 1.93,
+              "end": 3.07,
+              "duration": 1.14,
+              "type": "normal"
+            },
+            {
+              "start": 14.17,
+              "end": 14.7,
+              "duration": 0.5299999999999994,
+              "type": "normal"
+            },
+            {
+              "start": 17.05,
+              "end": 18.87,
+              "duration": 1.8200000000000003,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 1.1375,
+            "max_pause_duration": 1.8200000000000003,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 4,
+          "significant_pauses": 0,
+          "avg_pause_duration": 1.14,
+          "max_pause_duration": 1.82,
+          "speech_ratio": 60.7
+        }
+      },
+      "audio_duration": 20.4568125,
+      "transcript_segments": [
+        {
+          "start": 0.66,
+          "end": 19.64,
+          "text": "Nice question. Because I am right now pursuing the same field and so I guess it would be great to align the goals. Also, it is a very nice opportunity."
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "question_text": "Describe a time when you worked in a team.",
+      "audio_file": "Q08_answer.mp3",
+      "transcript": "I have been working in team projects since last two to three years, since my bachelor's. Also in my master's, I have been working in different team projects. So I have experience of working in teams.",
+      "confidence_evaluation": {
+        "response_time": 0.8,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 36,
+        "filler_count": 1,
+        "filler_ratio": 2.8,
+        "filler_details": {
+          "so": 1
+        },
+        "filler_categories": {
+          "stalling": 1
+        },
+        "fluency_score": 95.8,
+        "adjusted_fluency_score": 89.9,
+        "speech_rate_wpm": 178.2,
+        "gap_analysis": {
+          "total_duration": 15.139410430839002,
+          "speech_duration": 12.119999999999786,
+          "silence_duration": 3.0194104308392156,
+          "speech_ratio": 0.8005595763036669,
+          "pause_count": 1,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.57,
+              "duration": 0.57,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.57,
+            "max_pause_duration": 0.57,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 1,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.57,
+          "max_pause_duration": 0.57,
+          "speech_ratio": 80.1
+        }
+      },
+      "audio_duration": 15.1394375,
+      "transcript_segments": [
+        {
+          "start": 0.18,
+          "end": 14.56,
+          "text": "I have been working in team projects since last two to three years, since my bachelor's. Also in my master's, I have been working in different team projects. So I have experience of working in teams."
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "question_text": "How do you handle stress and pressure?",
+      "audio_file": "Q09_answer.mp3",
+      "transcript": "I prefer listening music to handle my stress and pressure.",
+      "confidence_evaluation": {
+        "response_time": 1.2,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer",
+        "answer_duration": null,
+        "duration_assessment": "Unable to measure"
+      },
+      "speech_analysis": {
+        "word_count": 10,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 86.1,
+        "speech_rate_wpm": 176.0,
+        "gap_analysis": {
+          "total_duration": 6.339047619047619,
+          "speech_duration": 3.4099999999999713,
+          "silence_duration": 2.929047619047648,
+          "speech_ratio": 0.53793569711538,
+          "pause_count": 1,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.98,
+              "duration": 0.98,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.98,
+            "max_pause_duration": 0.98,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 1,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.98,
+          "max_pause_duration": 0.98,
+          "speech_ratio": 53.8
+        }
+      },
+      "audio_duration": 6.3390625,
+      "transcript_segments": [
+        {
+          "start": 0.59,
+          "end": 4.77,
+          "text": "I prefer listening music to handle my stress and pressure."
+        }
+      ]
+    }
+  ]
+}

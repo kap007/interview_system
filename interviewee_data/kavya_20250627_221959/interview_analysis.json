@@ -1,0 +1,530 @@
+{
+  "candidate_name": "kavya",
+  "session_start": "2025-06-27 22:19:59.650761",
+  "questions_data": [
+    {
+      "question_number": 1,
+      "question_text": "Tell me about yourself and your background.",
+      "audio_file": "Q01_answer.mp3",
+      "transcript": "Hello sir, my name is Kaveh Patel and currently I am doing my B.Tech from Pandit Indayal Energy University and right now I also am doing an internship in the role of Data Science and Analyst in a company in DevIT.",
+      "confidence_evaluation": {
+        "response_time": 3.0,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 41,
+        "filler_count": 2,
+        "filler_ratio": 4.9,
+        "filler_details": {
+          "now": 1,
+          "right": 1
+        },
+        "filler_categories": {
+          "stalling": 1,
+          "discourse_markers": 1
+        },
+        "fluency_score": 92.7,
+        "adjusted_fluency_score": 75.6,
+        "speech_rate_wpm": 249.2,
+        "gap_analysis": {
+          "total_duration": 19.202902494331067,
+          "speech_duration": 9.869999999999834,
+          "silence_duration": 9.332902494331233,
+          "speech_ratio": 0.5139848001057954,
+          "pause_count": 5,
+          "pauses": [
+            {
+              "start": 0.47,
+              "end": 1.1,
+              "duration": 0.6300000000000001,
+              "type": "normal"
+            },
+            {
+              "start": 8.35,
+              "end": 9.15,
+              "duration": 0.8000000000000007,
+              "type": "normal"
+            },
+            {
+              "start": 10.01,
+              "end": 11.0,
+              "duration": 0.9900000000000002,
+              "type": "normal"
+            },
+            {
+              "start": 12.66,
+              "end": 13.2,
+              "duration": 0.5399999999999991,
+              "type": "normal"
+            },
+            {
+              "start": 15.03,
+              "end": 15.93,
+              "duration": 0.9000000000000004,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.772,
+            "max_pause_duration": 0.9900000000000002,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 5,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.77,
+          "max_pause_duration": 0.99,
+          "speech_ratio": 51.4
+        }
+      },
+      "audio_duration": 19.2029375,
+      "transcript_segments": [
+        {
+          "start": 0.69,
+          "end": 16.89,
+          "text": "Hello sir, my name is Kaveh Patel and currently I am doing my B.Tech from Pandit Indayal Energy University and right now I also am doing an internship in the role of Data Science and Analyst in a company in DevIT."
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question_text": "Why are you interested in this position?",
+      "audio_file": "Q02_answer.mp3",
+      "transcript": "I've always been passionate about data science and data analysis. And I've had my courses in my curriculum designed as per my dream of becoming a data analyst. And currently I'm also working in that domain. My internship is in that domain. So that's why I think that this position suits me.",
+      "confidence_evaluation": {
+        "response_time": 2.0,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 52,
+        "filler_count": 1,
+        "filler_ratio": 1.9,
+        "filler_details": {
+          "so": 1
+        },
+        "filler_categories": {
+          "stalling": 1
+        },
+        "fluency_score": 97.1,
+        "adjusted_fluency_score": 84.9,
+        "speech_rate_wpm": 239.3,
+        "gap_analysis": {
+          "total_duration": 19.82984126984127,
+          "speech_duration": 13.039999999999766,
+          "silence_duration": 6.789841269841505,
+          "speech_ratio": 0.6575947745901521,
+          "pause_count": 3,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.61,
+              "duration": 0.61,
+              "type": "normal"
+            },
+            {
+              "start": 4.17,
+              "end": 4.74,
+              "duration": 0.5700000000000003,
+              "type": "normal"
+            },
+            {
+              "start": 8.99,
+              "end": 9.77,
+              "duration": 0.7799999999999994,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.6533333333333332,
+            "max_pause_duration": 0.7799999999999994,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 3,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.65,
+          "max_pause_duration": 0.78,
+          "speech_ratio": 65.8
+        }
+      },
+      "audio_duration": 19.829875,
+      "transcript_segments": [
+        {
+          "start": 0.21,
+          "end": 18.69,
+          "text": "I've always been passionate about data science and data analysis. And I've had my courses in my curriculum designed as per my dream of becoming a data analyst. And currently I'm also working in that domain. My internship is in that domain. So that's why I think that this position suits me."
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question_text": "What are your greatest strengths?",
+      "audio_file": "Q03_answer.mp3",
+      "transcript": "My greatest strengths first of all is my mindset. I have a very positive and straightforward mindset. My second strength would be my behavior to never give up. I never give up on anything. If there is a thing I am supposed to do, I will do it no matter what.",
+      "confidence_evaluation": {
+        "response_time": 1.8,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 51,
+        "filler_count": 0,
+        "filler_ratio": 0.0,
+        "filler_details": {},
+        "filler_categories": {},
+        "fluency_score": 100.0,
+        "adjusted_fluency_score": 82.7,
+        "speech_rate_wpm": 281.3,
+        "gap_analysis": {
+          "total_duration": 19.481541950113378,
+          "speech_duration": 10.879999999999812,
+          "silence_duration": 8.601541950113566,
+          "speech_ratio": 0.558477353992839,
+          "pause_count": 3,
+          "pauses": [
+            {
+              "start": 5.19,
+              "end": 6.09,
+              "duration": 0.8999999999999995,
+              "type": "normal"
+            },
+            {
+              "start": 8.5,
+              "end": 10.42,
+              "duration": 1.92,
+              "type": "normal"
+            },
+            {
+              "start": 13.62,
+              "end": 14.24,
+              "duration": 0.620000000000001,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 1.1466666666666667,
+            "max_pause_duration": 1.92,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 3,
+          "significant_pauses": 0,
+          "avg_pause_duration": 1.15,
+          "max_pause_duration": 1.92,
+          "speech_ratio": 55.8
+        }
+      },
+      "audio_duration": 19.4815625,
+      "transcript_segments": [
+        {
+          "start": 0.0,
+          "end": 17.52,
+          "text": "My greatest strengths first of all is my mindset. I have a very positive and straightforward mindset. My second strength would be my behavior to never give up. I never give up on anything. If there is a thing I am supposed to do, I will do it no matter what."
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question_text": "Describe a challenging situation you faced and how you handled it.",
+      "audio_file": "Q04_answer.mp3",
+      "transcript": "one of the most challenging situations i've faced is getting an internship without any prior experience so i tackled it by simply have me having make a lot of projects in the domain of aiml and data science which furthermore companies liked and they offered me an internship from their side i didn't reach out to them they reached out to me so i guess that was a challenging situation and I kind of won",
+      "confidence_evaluation": {
+        "response_time": 1.6,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 75,
+        "filler_count": 3,
+        "filler_ratio": 4.0,
+        "filler_details": {
+          "so": 2,
+          "kind of": 1
+        },
+        "filler_categories": {
+          "stalling": 2,
+          "discourse_markers": 1
+        },
+        "fluency_score": 94.0,
+        "adjusted_fluency_score": 79.4,
+        "speech_rate_wpm": 243.0,
+        "gap_analysis": {
+          "total_duration": 31.62557823129252,
+          "speech_duration": 18.520000000000095,
+          "silence_duration": 13.105578231292423,
+          "speech_ratio": 0.5856019410792982,
+          "pause_count": 7,
+          "pauses": [
+            {
+              "start": 3.66,
+              "end": 4.28,
+              "duration": 0.6200000000000001,
+              "type": "normal"
+            },
+            {
+              "start": 5.36,
+              "end": 6.41,
+              "duration": 1.0499999999999998,
+              "type": "normal"
+            },
+            {
+              "start": 7.86,
+              "end": 8.52,
+              "duration": 0.6599999999999993,
+              "type": "normal"
+            },
+            {
+              "start": 11.08,
+              "end": 11.85,
+              "duration": 0.7699999999999996,
+              "type": "normal"
+            },
+            {
+              "start": 16.28,
+              "end": 16.99,
+              "duration": 0.7099999999999973,
+              "type": "normal"
+            },
+            {
+              "start": 18.38,
+              "end": 18.9,
+              "duration": 0.5199999999999996,
+              "type": "normal"
+            },
+            {
+              "start": 25.99,
+              "end": 26.78,
+              "duration": 0.7900000000000027,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.7314285714285712,
+            "max_pause_duration": 1.0499999999999998,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 7,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.73,
+          "max_pause_duration": 1.05,
+          "speech_ratio": 58.6
+        }
+      },
+      "audio_duration": 31.6255625,
+      "transcript_segments": [
+        {
+          "start": 0.05,
+          "end": 7.09,
+          "text": "one of the most challenging situations i've faced is getting an internship without any prior"
+        },
+        {
+          "start": 7.09,
+          "end": 15.01,
+          "text": "experience so i tackled it by simply have me having make a lot of projects in the domain of"
+        },
+        {
+          "start": 15.01,
+          "end": 22.15,
+          "text": "aiml and data science which furthermore companies liked and they offered me an internship from their"
+        },
+        {
+          "start": 22.15,
+          "end": 28.07,
+          "text": "side i didn't reach out to them they reached out to me so i guess that was a challenging situation"
+        },
+        {
+          "start": 28.07,
+          "end": 29.85,
+          "text": "and I kind of won"
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is your biggest weakness?",
+      "audio_file": "Q05_answer.mp3",
+      "transcript": "my biggest weakness is that i don't have any weaknesses that i know of there might be some weaknesses there there must be a weakness about me but i don't know about that so the so me lacking the knowledge about my weakness should be my biggest weakness according to me",
+      "confidence_evaluation": {
+        "response_time": 2.1,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 51,
+        "filler_count": 3,
+        "filler_ratio": 5.9,
+        "filler_details": {
+          "so": 2,
+          "repetitions": 1
+        },
+        "filler_categories": {
+          "stalling": 2,
+          "repetitions": 1
+        },
+        "fluency_score": 91.2,
+        "adjusted_fluency_score": 77.1,
+        "speech_rate_wpm": 261.8,
+        "gap_analysis": {
+          "total_duration": 18.436643990929706,
+          "speech_duration": 11.689999999999795,
+          "silence_duration": 6.746643990929911,
+          "speech_ratio": 0.6340633363507445,
+          "pause_count": 3,
+          "pauses": [
+            {
+              "start": 4.27,
+              "end": 4.82,
+              "duration": 0.5500000000000007,
+              "type": "normal"
+            },
+            {
+              "start": 11.13,
+              "end": 12.31,
+              "duration": 1.1799999999999997,
+              "type": "normal"
+            },
+            {
+              "start": 16.57,
+              "end": 17.08,
+              "duration": 0.509999999999998,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.7466666666666661,
+            "max_pause_duration": 1.1799999999999997,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 3,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.75,
+          "max_pause_duration": 1.18,
+          "speech_ratio": 63.4
+        }
+      },
+      "audio_duration": 18.436625,
+      "transcript_segments": [
+        {
+          "start": 0.0,
+          "end": 5.48,
+          "text": "my biggest weakness is that i don't have any weaknesses that i know of there might be some"
+        },
+        {
+          "start": 5.48,
+          "end": 10.98,
+          "text": "weaknesses there there must be a weakness about me but i don't know about that so the"
+        },
+        {
+          "start": 11.66,
+          "end": 17.66,
+          "text": "so me lacking the knowledge about my weakness should be my biggest weakness according to me"
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "question_text": "Where do you see yourself in five years?",
+      "audio_file": "Q06_answer.mp3",
+      "transcript": "I see myself at a prominent role in the world in the field of data science. I might actually become a researcher or might be doing exceptionally well in data science. I see myself or if I am to answer this generally, I would see myself as a data scientist.",
+      "confidence_evaluation": {
+        "response_time": 2.6,
+        "confidence_level": "High",
+        "explanation": "Started answering within 10 seconds - knows the answer"
+      },
+      "speech_analysis": {
+        "word_count": 50,
+        "filler_count": 2,
+        "filler_ratio": 4.0,
+        "filler_details": {
+          "well": 1,
+          "actually": 1
+        },
+        "filler_categories": {
+          "stalling": 1,
+          "intensifiers": 1
+        },
+        "fluency_score": 94.0,
+        "adjusted_fluency_score": 80.5,
+        "speech_rate_wpm": 223.5,
+        "gap_analysis": {
+          "total_duration": 22.77877551020408,
+          "speech_duration": 13.419999999999758,
+          "silence_duration": 9.358775510204323,
+          "speech_ratio": 0.589144925458705,
+          "pause_count": 5,
+          "pauses": [
+            {
+              "start": 0.0,
+              "end": 0.55,
+              "duration": 0.55,
+              "type": "normal"
+            },
+            {
+              "start": 3.67,
+              "end": 4.19,
+              "duration": 0.5200000000000005,
+              "type": "normal"
+            },
+            {
+              "start": 6.71,
+              "end": 7.36,
+              "duration": 0.6500000000000004,
+              "type": "normal"
+            },
+            {
+              "start": 9.9,
+              "end": 10.71,
+              "duration": 0.8100000000000005,
+              "type": "normal"
+            },
+            {
+              "start": 13.97,
+              "end": 15.41,
+              "duration": 1.4399999999999995,
+              "type": "normal"
+            }
+          ],
+          "pause_analysis": {
+            "avg_pause_duration": 0.7940000000000002,
+            "max_pause_duration": 1.4399999999999995,
+            "significant_pauses": 0
+          }
+        },
+        "pause_summary": {
+          "total_pauses": 5,
+          "significant_pauses": 0,
+          "avg_pause_duration": 0.79,
+          "max_pause_duration": 1.44,
+          "speech_ratio": 58.9
+        }
+      },
+      "audio_duration": 22.7788125,
+      "transcript_segments": [
+        {
+          "start": 0.18,
+          "end": 6.58,
+          "text": "I see myself at a prominent role in the world in the field of data science."
+        },
+        {
+          "start": 6.82,
+          "end": 13.82,
+          "text": "I might actually become a researcher or might be doing exceptionally well in data science."
+        },
+        {
+          "start": 15.0,
+          "end": 21.62,
+          "text": "I see myself or if I am to answer this generally, I would see myself as a data scientist."
+        }
+      ]
+    }
+  ]
+}

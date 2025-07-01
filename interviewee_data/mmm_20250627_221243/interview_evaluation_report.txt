@@ -1,0 +1,104 @@
+🎯 COMPREHENSIVE INTERVIEW EVALUATION REPORT
+============================================================
+
+Candidate: mmm
+Date: 2025-06-27 22:12:43
+Questions Completed: 10
+
+📊 OVERALL ANALYSIS
+--------------------
+Total Words: 271
+Total Fillers: 5 (1.8%)
+Base Fluency Score: 97.7/100
+Adjusted Fluency Score: 77.7/100
+
+🔍 FILLER BREAKDOWN BY CATEGORY
+--------------------------------
+Discourse Markers: 4 (80.0%)
+Stalling: 1 (20.0%)
+
+🎯 CONFIDENCE EVALUATION
+-------------------------
+Based on response timing analysis:
+
+High: 10 questions
+
+📈 FLUENCY ASSESSMENT
+--------------------
+🟡 GOOD: Generally fluent with some hesitation
+
+📝 DETAILED QUESTION ANALYSIS
+------------------------------
+
+Question 1: Tell me about yourself and your background.
+Confidence: High (3.0s)
+Words: 47 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 80.0/100 (adjusted)
+Transcript: My name is Kaveh Patel and I have done B.Tech in Computer Science from Pandit Dindar L.G. University and I am interested in Data Science and also I am...
+----------------------------------------
+
+Question 2: Why are you interested in this position?
+Confidence: High (2.4s)
+Words: 39 | Fillers: 2 (5.1%)
+Fluency: 92.3/100 → 72.3/100 (adjusted)
+Top Fillers: so(1), like(1)
+Transcript: I've always had a passion for data science and also I have the essential skills for it. I can clean data, I know whole pipeline process. So that's why...
+----------------------------------------
+
+Question 3: What are your greatest strengths?
+Confidence: High (1.4s)
+Words: 36 | Fillers: 2 (5.6%)
+Fluency: 91.7/100 → 71.7/100 (adjusted)
+Top Fillers: right(1), like(1)
+Transcript: My greatest strength would be my mindset. It is like never giving up. I never give up on myself. I never give up on anything. I always do the right th...
+----------------------------------------
+
+Question 4: Describe a challenging situation you faced and how you handled it.
+Confidence: High (3.2s)
+Words: 12 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 80.0/100 (adjusted)
+Transcript: One of the most challenging situations I have faced is my life
+----------------------------------------
+
+Question 5: What is your biggest weakness?
+Confidence: High (2.4s)
+Words: 20 | Fillers: 1 (5.0%)
+Fluency: 92.5/100 → 72.5/100 (adjusted)
+Top Fillers: like(1)
+Transcript: My biggest weakness is my own self me myself and Like my weakness is I don't have any particular weaknesses
+----------------------------------------
+
+Question 6: Where do you see yourself in five years?
+Confidence: High (1.7s)
+Words: 11 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 80.0/100 (adjusted)
+Transcript: I see myself as a successful happy man after 5 years.
+----------------------------------------
+
+Question 7: Why should we hire you?
+Confidence: High (1.9s)
+Words: 32 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 80.0/100 (adjusted)
+Transcript: hiring me means that you are recruiting a passionate person into your company who will work for your company who will do his work no matter what happe...
+----------------------------------------
+
+Question 8: Describe a time when you worked in a team.
+Confidence: High (1.6s)
+Words: 43 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 80.0/100 (adjusted)
+Transcript: I have worked in a team for various projects in my college years and also currently I am doing an internship where we are a team of 10 people. All of ...
+----------------------------------------
+
+Question 9: How do you handle stress and pressure?
+Confidence: High (2.5s)
+Words: 19 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 80.0/100 (adjusted)
+Transcript: I don't stress or have any pressure on me because I love what I work. I love my work.
+----------------------------------------
+
+Question 10: Do you have any questions for us?
+Confidence: High (1.3s)
+Words: 12 | Fillers: 0 (0.0%)
+Fluency: 100.0/100 → 80.0/100 (adjusted)
+Transcript: No, I don't have any questions for you. Thank you very much
+----------------------------------------
